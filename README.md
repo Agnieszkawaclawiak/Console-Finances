@@ -1,31 +1,27 @@
-# 🏗️ Log Customer's Drink Order Using an Object
+# Console-Finances
+In this project I have created a JavaScript code that analyzes the records to calculate each of the following:
 
-Implement the following user story:
+* The total number of months included in the dataset.
 
-* As a coffee shop owner, I want to store data about my customer's drink order in an object and log a message indicating whether the drink is ready or still in the queue.
+* The net total amount of Profit/Losses over the entire period.
 
-## Acceptance Criteria
+* The average of the **changes** in Profit/Losses over the entire period.
 
-* It's done when the `customerOrder` object has three properties that store the drink's name, the number of sugars, and a Boolean indicating whether the order is ready.
 
-* It's done when the drink name and the number of sugars is logged to the console.
+* The greatest increase in profits (date and amount) over the entire period.
 
-* It's done when, if the order is ready, the message `"Ready for pick-up"` logs.
+* The greatest decrease in losses (date and amount) over the entire period.
 
-* It's done when, if the order is not ready, the message `"Still in order queue"` logs.
+When you open your code in the browser your resulting analysis should look similar to the following:
 
-## 💡 Hints
+  ```text
+  Financial Analysis
+  ----------------------------
+  Total Months: 25
+  Total: $2561231
+  Average  Change: $-2315.12
+  Greatest Increase in Profits: Feb-2012 ($1926159)
+  Greatest Decrease in Profits: Sep-2013 ($-2196167)
+  ```
 
-How can we use dot notation or bracket notation to access an object's values?
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge to further your knowledge:
-
-* What is a `for...in` statement? How can you use it to iterate over an object’s properties?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Your final code should print the analysis to the console.
